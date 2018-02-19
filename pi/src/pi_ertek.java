@@ -11,9 +11,23 @@ public class pi_ertek {
 
 		}
 		System.out.println("Wallis-formula");
-		System.out.println("pi/2 ertek:"+ pi);
+		System.out.println("pi/2 erteke:"+ pi);
 		System.out.println("pi:" + pi * 2);
 		
+		//Leibniz-féle sor
+		pi = 0;
+		darab *= 4;
+		int elojel = 1;
+		
+		for (int i = 1; i <= darab; i += 2) {
+			pi += elojel * 1.0 / i;
+			elojel *= -1;
+		}
+		System.out.println(" ");
+		System.out.println("Leibniz-fele sor");
+		System.out.println("pi/4 erteke:"+ pi);
+		System.out.println("pi:" + pi * 4);
+
 	}
 
 }
