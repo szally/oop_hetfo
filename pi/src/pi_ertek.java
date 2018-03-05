@@ -27,7 +27,19 @@ public class pi_ertek {
 		System.out.println("Leibniz-fele sor");
 		System.out.println("pi/4 erteke:"+ pi);
 		System.out.println("pi:" + pi * 4);
-
+		System.out.println(" ");
+		
+		//Faktoriális
+		
+		int szam = 10;
+		int Faktor = 1;
+		
+		for (int i = 1; i <= szam; i++) {
+			Faktor *= i;
+			System.out.println(i + "!"+ Faktor);
+		}
+		
+		
 	}
 
 }
