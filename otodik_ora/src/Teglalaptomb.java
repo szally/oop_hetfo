@@ -6,8 +6,7 @@ public class Teglalaptomb {
 		Teglalap teglalaptomb[] = new Teglalap[meret];
 		
 		for (int i = 0; i < teglalaptomb.length; i++) {
-			teglalaptomb[i] = new Teglalap((int)(Math.random()*9) + 2
-											,(int)(Math.random()*9) + 2);
+			teglalaptomb[i] = new Teglalap((int)(Math.random()*9) + 2,(int)(Math.random()*9) + 2);
 			System.out.println(teglalaptomb[i]);
 		}
 		
